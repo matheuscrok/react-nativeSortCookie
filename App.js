@@ -19,6 +19,7 @@ export default function app(){
     const r = frases.length-1;
     let i= Math.floor(Math.random()*r);
     Alert.alert(''+frases[i]);
+    
   }
 
   return(
@@ -30,7 +31,7 @@ export default function app(){
     <FontAwesomeIcon icon={ faCookieBite} color={ '#009159'} size={50}/>
     </TouchableOpacity>
       </View>
-      <Text>{frase}</Text>
+      
     </View>
   );
   }
