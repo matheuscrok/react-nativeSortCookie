@@ -6,7 +6,11 @@ import { faCookieBite } from '@fortawesome/free-solid-svg-icons';
 export default function app(){
 
   
-  var frases=["oi", "ola tudo bem?", "boa tarde", "boa noite", "bom dia"];
+  var frases=["As pessoas costumam dizer que a motivação não dura sempre. Bem, nem o efeito do banho, por isso recomenda-se diariamente.",
+   "Toda ação humana, quer se torne positiva ou negativa, precisa depender de motivação.",
+    "No meio da dificuldade encontra-se a oportunidade.",
+     "Eu faço da dificuldade a minha motivação. A volta por cima vem na continuação.",
+      "Pedras no caminho? Eu guardo todas. Um dia vou construir um castelo."];
   
   
   function frase(){
@@ -26,6 +30,7 @@ export default function app(){
     <FontAwesomeIcon icon={ faCookieBite} color={ '#009159'} size={50}/>
     </TouchableOpacity>
       </View>
+      <Text>{frase}</Text>
     </View>
   );
   }
